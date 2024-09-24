@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "705083159853",
+    "project_id": "todo-ywsbbv",
+    "storage_bucket": "todo-ywsbbv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705083159853:android:5d3ce478737235eabe4fa4",
+        "android_client_info": {
+          "package_name": "com.mycompany.todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjkQ19a9pOzUKFMGmUo56hLvLSGrtql04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
