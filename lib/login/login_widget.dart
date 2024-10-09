@@ -1,4 +1,5 @@
 import '/auth/firebase_auth/auth_util.dart';
+import '/backend/api_requests/api_calls.dart';
 import '/backend/backend.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -795,6 +796,11 @@ class _LoginWidgetState extends State<LoginWidget>
                                   !_model.formKey2.currentState!.validate()) {
                                 return;
                               }
+                              await SendEmailToUserCall.call(
+                                to: _model.signUpEmailTextController.text,
+                                subject: 'Welcome to The Todo App!!',
+                                text: 'Thank you for signing up!!',
+                              );
 
                               context.goNamedAuth(
                                   'onboarding', context.mounted);
